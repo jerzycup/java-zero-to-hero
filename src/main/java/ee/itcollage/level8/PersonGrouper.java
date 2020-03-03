@@ -8,7 +8,11 @@ public class PersonGrouper {
 
     //todo fix tests
     public static Map<String, Person> groupPeopleByIdCode(List<Person> people){
-        return new HashMap<>();
+        HashMap<String, Person> group = new HashMap<>();
+        for(Person person : people){
+            group.put(person.getIdCode(), person);
+        }
+        return group;
     }
 
 }
