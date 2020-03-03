@@ -6,5 +6,10 @@ public class Driving {
         //todo find a way to call methods from your ferrari
         // create new methods
         Ferrari ferrari = new Ferrari();
+        ferrari.drive();
+        ferrari.stop();
+        ferrari.drive();
+        ferrari.drift();
+        ferrari.explode();
     }
 }

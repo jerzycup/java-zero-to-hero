@@ -12,7 +12,14 @@ public class Ferrari {
 
     public void drift(){
         //todo add method body
+        System.out.println("HHHHHHHHHH");
     }
-
+    public void explode(){
+        System.out.println("BUUUUUUUUUM!");
+    }
+    @Override
+    public String toString() {
+        return "I am speed!";
+    }
     //todo create more methods
 }
