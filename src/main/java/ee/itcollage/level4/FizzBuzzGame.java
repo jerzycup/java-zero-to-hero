@@ -20,7 +20,13 @@ public class FizzBuzzGame {
         System.out.println("Example 1");
         for (Integer number : numbers) {
             //do your logic
-            System.out.print(number);
+            if(number%3==0){
+                System.out.print("fizz");
+            }if(number%5==0){
+                System.out.print("buzz");
+            }else{
+                System.out.print(number);
+            }
             System.out.print(" ");
         }
         System.out.println();
